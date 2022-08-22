@@ -6,7 +6,7 @@ function FeaturedInfo() {
   return (
     <div className="featured">
         <div className="featuredItem">
-            <span className="featuredTitle">PAISA</span>
+            <span className="featuredTitle">Revenue</span>
             <div className="featuredMoneyContainer">
                 <span className="featuredMoney">₹25,156</span>
                 <span className="featuredMoneyRate">-12.3%<ArrowDownwardIcon className="featuredIcon negative"/></span>
