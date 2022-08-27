@@ -6,30 +6,37 @@ import LanguageIcon from '@mui/icons-material/Language';
 
 
 function Topbar() {
-  return (
-    <div className='topbar'>
-        <div className="topbarWrapper">
-            <div className="topLeft">
-                <span className="logo">R-Admin</span>
-            </div>
-            <div className="topRight">
-                <div className="topbarIconContainer">
-                    <NotificationsNoneIcon/>
-                    <span className="topIconBadge">2</span>
+  
+    return (
+        <body>
+            
+        
+        <div className='topbar'>
+            <div className="topbarWrapper">
+                <div className="topLeft">
+                    <span className="logo">R-Dashboard</span>
                 </div>
+                <div className="topRight">
+                    <div className="topbarIconContainer">
+                        <NotificationsNoneIcon />
+                        <span className="topIconBadge">2</span>
+                    </div>
 
-                <div className="topbarIconContainer">
-                    <LanguageIcon/>
-                </div>
+                    <div className="topbarIconContainer">
+                        <LanguageIcon />
+                    </div>
 
-                <div className="topbarIconContainer">
-                    <SettingsIcon/>
+                    <div className="topbarIconContainer">
+                        <SettingsIcon />
+                    </div>
+
+
+                    <img src="https://img.freepik.com/premium-vector/avatar-portrait-young-caucasian-boy-man-round-frame-vector-cartoon-flat-illustration_551425-19.jpg?w=2000" alt="" className="topAvatar" />
                 </div>
-                <img src="https://img.freepik.com/premium-vector/avatar-portrait-young-caucasian-boy-man-round-frame-vector-cartoon-flat-illustration_551425-19.jpg?w=2000" alt="" className="topAvatar" />
             </div>
         </div>
-    </div>
-  )
+        </body>
+    )
 }
 
 export default Topbar

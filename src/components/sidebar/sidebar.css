@@ -22,6 +22,8 @@
   
   .sidebarList {
     list-style: none;
+    display: flex;
+    flex-direction: column;
     padding: 5px;
   }
   
@@ -31,6 +33,7 @@
     display: flex;
     align-items: center;
     border-radius: 10px;
+    margin-bottom: 5px;
   }
   
   .sidebarListItem.active,
@@ -42,3 +45,5 @@
       margin-right: 5px;
       font-size: 20px !important;
   }
+
+ 
