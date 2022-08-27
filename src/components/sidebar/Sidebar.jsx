@@ -1,7 +1,7 @@
 import React from 'react'
 import "./sidebar.css"
 import LineStyleIcon from '@mui/icons-material/LineStyle';
-
+import MyLogo from "./My-logo.png"
 import PersonOutlineIcon from '@mui/icons-material/PersonOutline';
 import StoreIcon from '@mui/icons-material/Store';
 import { Link } from 'react-router-dom';
@@ -31,6 +31,12 @@ function Sidebar() {
                             Products
                         </li>
                         </Link>
+                        <a href="https://linktr.ee/sidesshmore" target="_blank">
+                        <li className="contacts">
+                            <img src={MyLogo} className="mylogo" alt="" />
+                            <span className='details'>Sidessh More</span>
+                        </li>
+                        </a>
                     </ul>
                 </div>
 

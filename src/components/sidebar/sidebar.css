@@ -46,4 +46,22 @@
       font-size: 20px !important;
   }
 
+.contacts{
+display: flex;
+align-items: center;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+  .mylogo{
+    height: 30px;
+    width: 30px;
+    border-radius: 15px;
+    cursor: pointer;
+    margin-right: 5px;
+  }
+
  
