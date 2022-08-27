@@ -31,7 +31,7 @@ function Sidebar() {
                             Products
                         </li>
                         </Link>
-                        <a href="https://linktr.ee/sidesshmore" target="_blank">
+                        <a href="https://linktr.ee/sidesshmore" target="_blank" rel="noreferrer">
                         <li className="contacts">
                             <img src={MyLogo} className="mylogo" alt="" />
                             <span className='details'>Sidessh More</span>
